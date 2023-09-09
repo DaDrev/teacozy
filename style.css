@@ -1,0 +1,136 @@
+* {
+    margin: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    max-width: 1300px;
+}
+
+#header a {
+    color: seashell;
+    margin: 10px;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    display: flexbox;
+    margin-top: 70px;
+}
+
+.mission {
+    background-color: black;
+    position: relative;
+    top: 265px;
+}
+
+.mission h2 {
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.mission h4 {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+#tea {
+    width: 1000px;
+    margin: 50px 0px;
+}
+
+.tea-img {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tea-img img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-img figure {
+    margin: 0;
+}
+
+.tea-img figcaption {
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+#location {
+background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+width: 1200px;
+height: 570px;
+margin-top: 30px;
+}
+
+.location h2{
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.address{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 40px;
+}
+
+.address div{
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    width: 1300px;
+}
+
+#footer .footer {
+    height: 200px;
+}
+
+#footer h2 {
+margin-top: 10px;
+}
+
+#footer .footer h5 {
+    padding-top: 10px;
+}
+
+#footer .copyright {
+    float: left;
+}
